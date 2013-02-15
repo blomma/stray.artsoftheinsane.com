@@ -1,6 +1,6 @@
 /* TEAM */
 	
-	Director for life: Mikael Hultgren
+	Director for Life: Mikael Hultgren
 	Twitter: @blomma
 	Location: Stockholm, Sweden
 

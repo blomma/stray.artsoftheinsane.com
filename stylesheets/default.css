@@ -1,0 +1,261 @@
+@media all {
+	body {
+		font:0.9em/1.5em 'PT Sans', Helvetica, sans-serif;
+		margin:0;
+		background:#383838;
+		width:100%;
+		color:#444444;
+	}
+	a {
+	  color: #d5000d;
+	  text-decoration:none;
+	}
+	a:hover {
+	  color: #c5000c;
+	  text-decoration:none;
+	}
+	section, header, footer, nav {display:block;}
+	img {
+		border:0;
+		vertical-align:top;
+		max-width:100%;
+	}
+	h1 {
+		font-size:4.285em;
+		line-height:1.067em;
+		margin:0 0 1.067em;
+		text-align:center;
+		color:#000;
+	}
+	h2 {
+		font-size:1.714em;
+		line-height:1.125em;
+		color:#fff;
+		text-align:center;
+		margin:0 0 0.417em;
+	}
+	h3 {
+		font-size:1.285em;
+		line-height:1.167em;
+	  color: #d5000d;
+	  font-weight: bold;
+		margin:0 0 0.55em;
+	}
+	ul {
+		padding:0;
+		margin:0;
+		list-style:none;
+	}
+	section ul,
+	article ul {
+		margin:0 0 0.5em;
+	}
+	q {
+		quotes:none;
+		display:block;
+		padding:1.5em 1em 0 40px;
+	}
+	q:before {content:"";}
+	q:after {content:"";}
+	cite {
+		display:block;
+		text-align:right;
+		margin-bottom:30px;
+	}
+	dl {margin:0 0 10px;}
+	dt {font-weight:bold;}
+	dd {margin:0 0 10px 20px;}
+	code {
+	  background-color: #f2f2f2;
+	  border: solid 1px #ddd;
+	  padding: 0 3px;
+	}
+	mark {
+	  background-color: #f2f2f2;
+	  border: solid 1px #ddd;
+	  padding: 0 3px;
+	}
+	.number {
+	  color: #d5000d;
+		font-size:1.1em;
+	}
+	.social {
+	  color: #d5000d;
+	}
+	.center {
+		max-width:760px;
+		width:100%;
+		margin:0 auto;
+	}
+	.hidden {display:none;}
+	.box-main:after,
+	.center:after {
+		content:"";
+		clear:both;
+		display:block;
+	}
+	.right {float:right;}
+	.left {float:left;}
+	.alignLeft {
+		float:left;
+		margin-top:1em;
+		margin-right:1em;
+		margin-bottom:1em;
+	}
+	.alignRight {
+		float:right;
+		margin-top:1em;
+		margin-left:1em;
+		margin-bottom:1em;
+	}
+	.row {
+		width:100%;
+		background:#eaeaea;
+		padding:2.857em 0;
+	}
+	.row:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.grey {
+		background:#fff;
+		border-bottom:1px solid #dcdcdc;
+		border-top:1px solid #dcdcdc;
+	}
+	.grey_header {
+		padding:0;
+		background:#fff;
+		border-bottom:1px solid #dcdcdc;
+		border-top:1px solid #dcdcdc;
+	}
+	.blurb {
+		color: rgb(0, 0, 0);
+		font-size: 1.2em;
+		font-style: italic;
+		font-variant: normal;
+		font-weight: normal;
+		height: auto;
+		line-height: 26px;
+	}
+	#ios-app-store {
+		padding-top:10px;
+		float:right;
+		width: 296px;
+	}
+	.ios-app-store-txt {
+		font-size: 0.75em;
+		font-weight: 400;
+		margin:5px;
+		margin-top: 10px;
+		float: right;
+		text-align: left;
+	}
+	.columns {width:100%;}
+	.columns:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.columns > div,
+	.columns > article {
+		float:left;
+		vertical-align:top;
+	}
+	.columns h2 {text-align:left;}
+	.half {
+		width:48.0%;
+		margin:1.3%;
+	}
+	.oneThird {
+		width:32%;
+		margin:1%;
+	}
+	.columns > div:first-child,
+	.columns > article:first-child {margin-left:0;}
+	.oneThird +.oneThird +.oneThird,
+	.threeForth + .oneForth,
+	.oneForth + .half,
+	.half + .half,
+	.half + .oneForth + .oneForth,
+	.last {
+		float:right;
+		margin-right:0;
+	}
+	.oneForth {width:24%;margin:1%;}
+	.threeForth {width:74%;margin:1%;}
+	#pagewidth {width:100%;}
+	.gallery {
+		padding:2px 0;
+		position:relative;
+		margin:0 auto;
+		width:646px;
+		position:relative;
+	}
+	.gallery:after {
+		content:"";
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		height:2px;
+	}
+	#footer {
+		font-size:0.9em;
+		line-height:1em;
+		width:100%;
+		overflow:hidden;
+		padding:24px 0;
+		color:#fff;
+		line-height:16px;
+	}
+	#footer a {
+	  color: #d5000d;
+	  text-decoration:none;
+	}
+	#footer a:hover {
+	  color: #c5000c;
+	  text-decoration:none;
+	}
+	.twitter-share-button { vertical-align:top; }
+}
+
+@media all and (max-width: 1024px) {
+}
+
+@media all and (max-width: 960px) {
+	.center {
+		padding:0 10px;
+		width:auto;
+	}
+}
+
+@media all and (max-width: 780px) {
+	body {font-size:13px;}
+	h1 {font-size:3.5em;}
+}
+
+@media all and (max-width: 504px) {
+	body {font-size:12px;}
+	.columns > div,
+	.columns > article {
+		float:none;
+		margin:0;
+		width:100%;
+	}
+	h1 {font-size:3em;}
+	#ios-app-store {
+		clear:both;
+		padding-top:10px;
+		float:left;
+		width: 296px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	h1 {font-size:2.5em;}
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#content {padding:0;}
+}

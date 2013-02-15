@@ -1,0 +1,20 @@
+/* TEAM */
+	
+	Director for life: Mikael Hultgren
+	Twitter: @blomma
+	Location: Stockholm, Sweden
+
+/* PEOPLE BEHIND THE MASKS */
+
+	Mikael Hultgren (blomma [at] gmail DOT com): Climber / Baker
+
+/* THANKS */
+
+	to all the cups of tea and the love from my girlfriend Christine
+
+/* SITE */
+	
+	 Standards: HTML5, CSS3
+	Components: Javascript, jQuery, HTML5 Boilerplate...
+	  Software: Textmate2, Photoshop, Acorn, Sketch
+	       App: Github

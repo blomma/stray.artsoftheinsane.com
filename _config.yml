@@ -1,0 +1,4 @@
+exclude: [design]
+auto: true
+server: true
+pygments: true

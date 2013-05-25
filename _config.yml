@@ -1,4 +1,4 @@
-exclude: [design]
+exclude: [design, _images]
 auto: true
 server: true
 pygments: true
